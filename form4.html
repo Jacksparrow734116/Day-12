@@ -1,0 +1,76 @@
+<html>
+    <head>
+<style>
+    .formele{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .firlas{
+        display: flex;
+        gap: 20px;
+    }
+    form{
+        width: fit-content;
+    }
+    input[type="email"],input[type="password"],input[type="submit"],select,option{
+        width: 100%;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+       border: 1px solid black;
+    }
+    input[type="submit"]{
+        padding: 6px;
+        background-color: orange;
+        color: white;
+        border: none;
+    }
+</style>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        
+            <form>
+                <h2>Responsive Registration Form</h2>
+                <div class="formele">
+                    <img src="evel.jpg">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="formele">
+                    <img src="lock.jpg">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="formele">
+                    <img src="lock.jpg">
+                    <input type="password" placeholder="Re-type Password">
+                </div>
+                <div class="firlas">
+                    <div class="formele">
+                        <img src="user.jpg">
+                        <input type="text" placeholder="First Name">
+
+                    </div>
+                    <div class="formele">
+                        <img src="user.jpg">
+                        <input type="text" placeholder="Last Name">
+
+                    </div>
+                </div>
+                <input type="radio">Male
+                <input type="radio">Female<br><br>
+                <select>
+                    <option>Select a Country</option>
+                    <option>India</option>
+                    <option>China</option>
+                    <option>Russia</option>
+                </select><br><br>
+                <input type="checkbox">I agree with terms and conditions<br>
+                <input type="checkbox">I want to receive the newsletter<br><br>
+                <center><input type="submit" value="Register"></center>
+            </form>
+        
+    </body>
+</html>
